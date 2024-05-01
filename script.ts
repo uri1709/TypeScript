@@ -14,3 +14,9 @@ console.log(i5.value);
 
 const i6 = document.querySelector('.i-6') as HTMLInputElement;
 console.log(+i6.value);
+
+const checkbox = <HTMLInputElement> document.querySelector('input[type="checkbox"]');
+// console.log(checkbox);
+if (checkbox.checked) {
+    console.log('checked');
+}

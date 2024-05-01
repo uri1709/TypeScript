@@ -10,4 +10,9 @@ const i5 = document.querySelector('.i-5');
 console.log(i5.value);
 const i6 = document.querySelector('.i-6');
 console.log(+i6.value);
+const checkbox = document.querySelector('input[type="checkbox"]');
+// console.log(checkbox);
+if (checkbox.checked) {
+    console.log('checked');
+}
 //# sourceMappingURL=script.js.map
